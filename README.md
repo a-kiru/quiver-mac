@@ -92,9 +92,6 @@ make serve
 ```
 in the **quiver** directory and then open `localhost:8000` in browser.
 
-If you have any other problems building **quiver**, [open an
-issue](https://github.com/varkor/quiver/issues/new) detailing the problem and I'll try to help.
-
 If you want to build **quiver** using Docker, run:
 
 ````
@@ -103,6 +100,9 @@ docker run -d --name quiver -p <host_port>:8000 quiver-local
 ````
 
 Then open `http://localhost:<host_port>` in your browser, replacing `<host_port>`with any available port number on your machine.
+
+If you have any other problems building **quiver**, [open an
+issue](https://github.com/varkor/quiver/issues/new) detailing the problem and I'll try to help.
 
 ## Thanks to
 - [S. C. Steenkamp](https://www.cl.cam.ac.uk/~scs62/), for helpful discussions regarding the
